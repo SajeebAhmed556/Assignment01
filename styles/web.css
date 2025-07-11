@@ -200,18 +200,117 @@
           5 Users' Feedback Section
           ========================================
           */
-             .feedback-section {
+             /* .feedback-section {
               text-align: center;
               font-size: 18px;
               color: #555;
               margin-bottom: 60px;
-          }
+              margin-right: 150px;
+              margin-left: 140px;} */
+          
           .reviews-container {
               display: grid;
               grid-template-columns: repeat(3, 1fr);
+              text-align:center ;
             
           }
+
+          .container-feedback-section{
+            display:flex;
+             margin-bottom: 20px;
+            margin-left: 161px;
+            margin-right: 160px;
+            margin-top: 10px;
+            padding-left: 10px;
+          }
+          .review-card{
+            background-color: #FFFFFF;
+              border: 1px solid #E9ECEF;
+              border-radius: 10px;
+              padding: 30px;
+              
+              margin-bottom: 8px;
+              font-weight: 800;
+          }
+
+          .review-card h3{
+              text-align: left;
+              font-size: 22px;
+              margin-bottom: 2px;
+              margin-left: 5px;
+          }
+          .review-card p{
+            text-align: left;
+          }
+
+
+          .web-flow{
           
+            margin-left:  170px;
+            margin-right: 190px;
+            
+          }
+
+          .web-flow img{
+            border-radius: 20px;
+           
+          }
+        
+
+          
+
+         /*5.  Get In Touch Section*/
+          
+          .contact-section {
+              display: flex;
+              align-items: flex-start;
+              gap: 60px;
+          }
+
+          .contact-title {
+              flex-basis: 40%;
+          }
+
+          .contact-title h2 {
+              font-size: 48px;
+              line-height: 1.2;
+          }
+
+          .contact-form-container {
+              flex-basis: 60%;
+              background: #f9f9f9;
+              padding: 40px;
+              border-radius: 10px;
+          }
+
+          .contact-form-container label {
+              display: block;
+              margin-bottom: 8px;
+              font-weight: 600;
+          }
+
+          .contact-form-container input,
+          .contact-form-container textarea {
+              width: 100%;
+              padding: 15px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-family: "Open Sans", sans-serif;
+              font-size: 16px;
+              box-sizing: border-box;
+          }
+          
+          .contact-form-container input:focus,
+          .contact-form-container textarea:focus {
+              outline: none;
+              border-color: #4335DD;
+          }
+
+
+
+
+
           
          
          
