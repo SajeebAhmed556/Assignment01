@@ -26,6 +26,7 @@
           }
 
           .container {
+             
               max-width: 1100px;
               margin: 0 auto;
               padding: 80px 20px;
@@ -64,15 +65,17 @@
               cursor: pointer;
               text-transform: capitalize;
               text-decoration: none;
-              display: inline-block;
+              display:inline;
               transition: background-color 0.3s ease, transform 0.3s ease;
+              
           }
 
           .btn:hover {
               background-color: #a8a22b;
               transform: translateY(-3px);
-              box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+              box-shadow: 0 4px 10px ;
           }
+         
 
           /*
           ========================================
@@ -156,9 +159,9 @@
           
 
            /* ======================================== 
-          4. user say section
-          ========================================
-          */
+               user say section
+              ========================================*/
+          
           .headline{
             text-align: center;
             font-weight: bold;
@@ -197,16 +200,10 @@
           }
 
         /* ======================================== 
-          5 Users' Feedback Section
-          ========================================
-          */
-             /* .feedback-section {
-              text-align: center;
-              font-size: 18px;
-              color: #555;
-              margin-bottom: 60px;
-              margin-right: 150px;
-              margin-left: 140px;} */
+           Users Feedback Section
+          ========================================*/
+          
+           
           
           .reviews-container {
               display: grid;
@@ -247,7 +244,7 @@
           .web-flow{
           
             margin-left:  170px;
-            margin-right: 190px;
+            margin-right: 190px;;
             
           }
 
@@ -259,16 +256,17 @@
 
           
 
-         /*5.  Get In Touch Section*/
+         /*  Get In Touch Section*/
           
           .contact-section {
-              display: flex;
+              display:flex;
               align-items: flex-start;
               gap: 60px;
           }
 
           .contact-title {
               flex-basis: 40%;
+              margin-top: 160px;
           }
 
           .contact-title h2 {
@@ -296,7 +294,7 @@
               margin-bottom: 20px;
               border: 1px solid #ccc;
               border-radius: 5px;
-              font-family: "Open Sans", sans-serif;
+              
               font-size: 16px;
               box-sizing: border-box;
           }
@@ -306,6 +304,40 @@
               outline: none;
               border-color: #4335DD;
           }
+
+             .footer-section {
+              background-color: #F8F9FA;
+              text-align: center;
+          }
+
+          .footer-section .logo {
+              color: #4335DD;
+              text-decoration: none;
+              display: inline-block;
+              margin-bottom: 20px;
+          }
+
+          .footer-section p {
+              max-width: 600px;
+              margin: 0 auto 30px auto;
+          }
+
+          .footer-links a {
+              text-decoration: none;
+              color: #333;
+              margin: 0 15px;
+              font-weight: 600;
+              
+          }
+
+        
+          
+
+          .ready-to-focus{
+              text-align: center;
+          }
+
+
 
 
 
